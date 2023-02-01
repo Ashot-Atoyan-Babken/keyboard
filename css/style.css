@@ -1,0 +1,94 @@
+.wrapper {
+   width: 900px;
+   height: 100%;
+   margin: 50px auto;
+
+}
+
+.keyboard_general {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.keyboard_general div:nth-child(14) {
+   width: 150px;
+}
+
+p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.keyboard {
+   width: 70px;
+   height: 70px;
+   border: 1px solid #fff;
+   padding: 0 auto;
+   background-color: #000;
+   color: #fff;
+}
+
+.keyboard img {
+   width: 50px;
+   height: 50px;
+}
+
+.keyboard_top {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.keyboard_middle {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.keyboard_middle div:first-child {
+   width: 120px;
+}
+
+.keyboard_bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.keyboard_bottom div:first-child,
+.keyboard_bottom div:last-child {
+   width: 150px;
+}
+
+.keyboard_space {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.keyboard_space div:nth-child(4) {
+   width: 400px;
+}
+
+.keyboard_space div:first-child,
+.keyboard_space div:last-child {
+   width: 150px;
+}
+
+.circle {
+   width: 10px;
+   height: 10px;
+   background-color: #fff;
+   border-radius: 50%;
+   margin-left: 12px;
+}
+
+.text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 150px;
+}
