@@ -1,7 +1,7 @@
 .wrapper {
    width: 900px;
    height: 100%;
-   margin: 50px auto;
+   margin: 50px 200px;
 
 }
 
@@ -91,4 +91,51 @@ p {
    justify-content: center;
    align-items: center;
    margin-top: 150px;
+}
+
+.key {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.general {
+   width: 900px;
+   height: 100%;
+}
+
+.arrow_bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.arrow {
+   margin: 24% 0px 0px 50px;
+}
+
+.arrow_arr {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.arrow_arr div:first-child,
+.arrow_arr div:last-child {
+   background-color: #fff;
+}
+
+.arrow_arr div:nth-child(2) p {
+   transform: rotate(90deg);
+}
+
+
+
+.arrow_bottom div:nth-child(2) p {
+   transform: rotate(-90deg);
+}
+
+.arrow_bottom div:nth-child(3) p {
+   transform: rotate(180deg);
 }

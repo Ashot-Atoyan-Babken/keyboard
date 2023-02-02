@@ -141,6 +141,17 @@ document.body.addEventListener("keydown", function (e) {
       key[58].style.backgroundColor = `rgb(${r} ${g} ${b})`
 
 
+
+   else if (e.code == "ArrowUp")
+      key[60].style.backgroundColor = `rgb(${r} ${g} ${b})`
+   else if (e.code == "ArrowLeft")
+      key[62].style.backgroundColor = `rgb(${r} ${g} ${b})`
+   else if (e.code == "ArrowDown")
+      key[63].style.backgroundColor = `rgb(${r} ${g} ${b})`
+   else if (e.code == "ArrowRight")
+      key[64].style.backgroundColor = `rgb(${r} ${g} ${b})`
+   console.log(e);
+
 })
 
 document.body.addEventListener("keyup", function (e) {
@@ -271,6 +282,16 @@ document.body.addEventListener("keyup", function (e) {
       key[57].style.backgroundColor = `black`
    else if (e.code == "ControlRight")
       key[58].style.backgroundColor = `black`
+
+
+   else if (e.code == "ArrowUp")
+      key[60].style.backgroundColor = `black`
+   else if (e.code == "ArrowLeft")
+      key[62].style.backgroundColor = `black`
+   else if (e.code == "ArrowDown")
+      key[63].style.backgroundColor = `black`
+   else if (e.code == "ArrowRight")
+      key[64].style.backgroundColor = `black`
 
 
    if (e.getModifierState("CapsLock")) {
